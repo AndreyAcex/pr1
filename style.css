@@ -1,0 +1,250 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-right-icons {
+  display: flex;
+  gap: 32px;
+}
+.section1-container {
+  background-image: url(/images/1_1.png);
+  background-size: 100%;
+}
+.header-center-navlink {
+  display: flex;
+  gap: 64px;
+  a {
+    color: white;
+  }
+}
+.navlink-container-section1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  gap: 10px;
+  padding-bottom: 30px;
+  a {
+    color: black;
+  }
+}
+.title-section1 {
+  color: black;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+}
+.image-area1-section2 {
+  border: 1px solid black;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.title-area1-section2 {
+  font-size: 34px;
+  font-weight: 700;
+  padding-top: 16px;
+}
+.text-area-section2 {
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 10px;
+  color: rgba(137, 157, 157, 1);
+}
+.card1-container-section2 {
+  max-width: 255px;
+}
+.section2-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.bottom-side-section3 {
+  padding-top: 30px;
+}
+
+.cards-desktop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn-java-danger {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button-js {
+  background-color: rgba(29, 47, 48, 1);
+  border: 1px solid rgba(186, 226, 73, 1);
+  color: white;
+  padding: 10px;
+}
+
+.alink-next-page {
+  a {
+    color: rgba(186, 226, 73, 1);
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+.button-area-section2 {
+  padding-top: 15px;
+}
+.btn-danger-section2 {
+  border: 1px solid rgba(186, 226, 73, 1);
+  color: rgba(186, 226, 73, 1);
+  background-color: rgba(29, 47, 48, 1);
+  height: 45px;
+  width: 100%;
+  max-width: 145px;
+}
+.text-area-section3 {
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+.image-area-section3 {
+  padding-left: 32px;
+}
+.container-background-danger {
+  background-color: rgba(186, 226, 73, 1);
+  max-width: 300px;
+}
+.text-area-section4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  padding-bottom: 10px;
+}
+.parag-container-section4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 210px;
+}
+.parag1-area-section4,
+.parag2-area-section4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(80, 104, 41, 1);
+}
+.alink-next-page-section4 {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 75px;
+  a {
+    color: black;
+  }
+}
+.left-side-section4 {
+  color: black;
+}
+.section4-container {
+  background-image: url(/images/1.png);
+  background-size: cover;
+}
+.title-text-section4 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 60px;
+}
+.parag-text-section4 {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 800px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
+.input-section4 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+input {
+  width: 100%;
+  height: 45px;
+  max-width: 350px;
+}
+.button-area-section4 {
+  padding-top: 24px;
+}
+.btn-danger-section4 {
+  background-color: #bae249;
+  color: black;
+  width: 100%;
+  max-width: 145px;
+  height: 45px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.section5-container {
+  background-color: #0b1919;
+}
+.icons-container-section5 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 18px;
+}
+.text-area-footer {
+  font-size: 12px;
+  font-weight: 400;
+  color: #899d9d;
+  text-align: center;
+  padding: 10px;
+}
+@media (max-width: 800px) {
+  .section4-container,
+  .section5-container,
+  .header-center-navlink,
+  .parag-for-desktop-section1,
+  footer {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  .navlink-container-section1 {
+    display: none;
+  }
+  .container-desktop {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-area-section3 {
+    text-align: center;
+  }
+  .btn-java-danger {
+    display: none;
+  }
+  .title-section1 {
+    font-size: 60px;
+
+    font-weight: 700;
+  }
+  .parag-for-desktop-section1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    padding-top: 16px;
+  }
+  .alink-next-page {
+    font-size: 16px;
+    padding-top: 24px;
+    font-weight: 700;
+  }
+  .section1-container {
+    padding-top: 115px;
+    padding-bottom: 80px;
+  }
+  .text-area-container-section1 {
+    max-width: 720px;
+  }
+}

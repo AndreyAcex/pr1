@@ -1,681 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" lang="ru" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/normalize.css" />
-    <link rel="stylesheet" href="/baseglobal.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/baseglobal.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const toggles = document.querySelectorAll(".toggle");
-
-        toggles.forEach((toggle) => {
-          toggle.addEventListener("click", function () {
-            this.classList.toggle("active");
-            const content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
-        });
-      });
-    </script>
-    <title>Landing Page</title>
+    <title>Biology</title>
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <div class="header-container padding-master">
-          <div class="logo-header">
-                <a href="index.html">
-            <img
-              src="landing-images/logo.png"
-              width="100px"
-              height="20px"
-              alt="Logo"
-            />
-                </a>
+        <div class="header-container padding-global">
+          <div class="header-left-logo">
+            <img src="/images/logo (3).png" alt="Logo" />
           </div>
-          <div class="nav-center-header">
-            <a href="/index.html">Market</a>
-            <a href="trade.html">Trade</a>
-            <a href="/blog.html">Blog</a>
-            <a href="/referal.html">Refferal</a>
-            <a href="/career.html">Career</a>
+          <div class="header-center-navlink">
+            <a href="#">Каталог</a>
+            <a href="#">Галерея</a>
+            <a href="#">О лаборатории</a>
+            <a href="#">Контакты</a>
           </div>
-          <div class="right-side-header">
-            <div><a class="sign-mobile-version" href="sign.html">Sign Up</a></div>
-            <div class="sign-for-desktop">
-              <button class="button-login"><a href="/login.html">Log In</a></button>
-              <button class="sign-desktop"><a href="sign.html">Sign Up</a></button>
-            </div>
-            <img
-              class="menu-header"
-              src="/landing-images/menu.png"
-              alt="Menu"
-            />
+          <div class="header-right-icons">
+            <img src="/images/search.png" alt="search" />
+            <img src="/images/log-in.png" alt="log-in" />
           </div>
         </div>
       </header>
-      <section>
-        <div class="section1-container">
-          <div class="image-section1">
-            <img src="/landing-images/SVG.png" alt="desktop" />
-          </div>
-          <div class="image-desktop-section1">
-            <img src="/landing-images/SVG (1).png" alt="comp" />
-          </div>
-          <div class="text-area-section1">
-            <div class="title-text-section1 padding-master">
-              - Crypto Brains
-            </div>
-            <div class="big-text-section1 padding-master padding-super">
-              Buy & Sell Crypto Easy With Crypto Brains
-            </div>
-            <div class="parag-text-section1 padding-master padding-super">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
-            </div>
-            <div class="buttons-section1 padding-master">
-              <button class="btn-danger-section1">Start Now</button>
-              <button class="btn-base-section1">Beginner’s Guide</button>
-            </div>
-          </div>
+      <section class="section1-container">
+        <div class="navlink-container-section1 padding-left">
+          <a href="#">Каталог</a>
+          <a href="#">Галерея</a>
+          <a href="#">О лаборатории</a>
+          <a href="#">Контакты</a>
         </div>
-        <div class="market-line-section1">
-          <img src="/landing-images/Market (1).png" alt="market" />
+        <div class="text-area-container-section1">
+          <div class="title-section1 padding-left">
+            <div>Крупнейшая коллекция природных артефактов</div>
+          </div>
+          <div class="parag-for-desktop-section1 padding-left">
+            <div>
+              Являясь всего лишь частью общей картины, интерактивные прототипы,
+              которые представляют собой яркий пример европейского типа
+              политической и социальной культуры.
+            </div>
+          </div>
+          <div class="alink-next-page padding-global">
+            <a href="#">Исследовать -></a>
+          </div>
         </div>
       </section>
       <section>
-        <div class="section2-container padding-booster ">
-          <div class="text-area-section2">
-            <div class="text-title-section2">Market Trends</div>
-            <div class="nav-container-section2">
-              <div class="nav-section2 padding-super">
-                <a href="#">All</a>
-                <a href="#">Top Gainers</a>
-                <a href="#">Top Losers</a>
-                <div class="nav-for-desktop">
-                  <a href="#">New Listining</a>
-                  <a href="#">Defi</a>
-                  <a href="#">Metaverse</a>
-                </div>
+        <div class="section2-container">
+          <div class="card1-container-section2 padding-global">
+            <div class="image-area1-section2">
+              <img src="/images/Layer 3.png" alt="layer" />
+            </div>
+            <div class="title-area1-section2">Fig. 1 (plant)</div>
+            <div class="text-area-section2 parag-area1-section2">
+              Имеется спорная точка зрения, гласящая примерно следующее: активно
+              развивающиеся страны третьего мира своевременно верифицированы.
+            </div>
+            <div class="button-area-section2">
+              <button class="btn-danger-section2">Подробнее</button>
+            </div>
+          </div>
+          <div class="cards-desktop">
+            <div class="card1-container-section2 padding-global">
+              <div class="image-area1-section2">
+                <img src="/images/Layer 2.png" alt="layer" />
+              </div>
+              <div class="title-area1-section2">Fig. 1 (plant)</div>
+              <div class="text-area-section2 parag-area1-section2">
+                Имеется спорная точка зрения, гласящая примерно следующее:
+                активно развивающиеся страны третьего мира своевременно
+                верифицированы.
+              </div>
+              <div class="button-area-section2">
+                <button class="btn-danger-section2">Подробнее</button>
               </div>
             </div>
-          </div>
-          <div class="images-section2">
-            <img
-              class="card-trade-section2"
-              src="/landing-images/Market.png"
-              alt="Market"
-            />
-            <img
-              class="card-trade-section2"
-              src="/landing-images/3.png"
-              alt="market"
-            />
-            <img
-              class="card-trade-section2"
-              src="/landing-images/4.png"
-              alt="market"
-            />
-            <div class="images-desktop-section2">
-              <img
-                class="card-trade-section2"
-                src="/landing-images/5.png"
-                alt="market"
-              />
-              <img
-                class="card-trade-section2"
-                src="/landing-images/6.png"
-                alt="market"
-              />
-              <img
-                class="card-trade-section2"
-                src="/landing-images/7.png"
-                alt="market"
-              />
+            <div class="card1-container-section2 padding-global">
+              <div class="image-area1-section2">
+                <img src="/images/Layer 4.png" alt="layer" />
+              </div>
+              <div class="title-area1-section2">Fig. 1 (plant)</div>
+              <div class="text-area-section2 parag-area1-section2">
+                Имеется спорная точка зрения, гласящая примерно следующее:
+                активно развивающиеся страны третьего мира своевременно
+                верифицированы.
+              </div>
+              <div class="button-area-section2">
+                <button class="btn-danger-section2">Подробнее</button>
+              </div>
             </div>
-          </div>
-          <div class="buttons-section2 padding-master">
-            <button class="btn-danger-section2">See All Market</button>
+            <div class="card1-container-section2 padding-global">
+              <div class="image-area1-section2">
+                <img src="/images/Layer 1 1.png" alt="layer" />
+              </div>
+              <div class="title-area1-section2">Fig. 1 (plant)</div>
+              <div class="text-area-section2 parag-area1-section2">
+                Имеется спорная точка зрения, гласящая примерно следующее:
+                активно развивающиеся страны третьего мира своевременно
+                верифицированы.
+              </div>
+              <div class="button-area-section2">
+                <button class="btn-danger-section2">Подробнее</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section class="padding-master">
-        <div class="section3-container padding-booster">
-          <div class="text-area-section3 padding-master">
-            <div class="title-text-section3">
-              Start Trading In Simple Process
+      <section class="section3-container">
+        <div class="text-area-section3 padding-global">Новые артефакты</div>
+        <div class="image-area-section3 padding-left">
+          <div class="container-desktop">
+            <div class="image-area1-section3">
+              <img src="/images/card_5.png" width="900px" alt="frame" />
             </div>
-            <div class="parag-text-section1 padding-super">
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s.
-            </div>
-          </div>
-          <div class="info-card-container-section3 padding-master">
-            <div class="card-n1-section3 padding-master">
-              <img
-                src="/landing-images/1.png"
-                height="50px"
-                width="50px"
-                alt="icon"
-              />
-              <div class="text-area-card-section3">
-                <div class="title-card1-section3 padding-super">
-                  Create Account
+            <div class="bottom-side-section3">
+              <div class="container-background-danger padding-global">
+                <div class="text-area-section4">Kurische Nehrung 24</div>
+                <div class="parag-container-section4">
+                  <div class="parag1-area-section4">
+                    Вот вам яркий пример современных тенденций - начало
+                    повседневной работы по формированию позиции выявляет срочную
+                    потребность методов управления процессами.
+                  </div>
+                  <div class="parag2-area-section4">
+                    Есть над чем задуматься: представители современных
+                    социальных резервов своевременно верифицированы.
+                  </div>
                 </div>
-                <div class="parag-card1-section3 padding-super">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </div>
-                <div class="buttons-section3 padding-super">
-                  <button class="btn-danger-section3">Sign Up Now</button>
-                </div>
-              </div>
-            </div>
-            <div class="card-n1-section3 padding-master">
-              <img
-                src="/landing-images/1 (2).png"
-                height="50px"
-                width="50px"
-                alt="icon"
-              />
-              <div class="text-area-card-section3">
-                <div class="title-card1-section3 padding-super">
-                  Verify Bank Account
-                </div>
-                <div class="parag-card1-section3 padding-super">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </div>
-                <div class="buttons-section3 padding-super">
-                  <button class="btn-danger-section3">Sign Up Now</button>
-                </div>
-              </div>
-            </div>
-            <div class="card-n1-section3 padding-master">
-              <img
-                src="/landing-images/1 (1).png"
-                height="50px"
-                width="50px"
-                alt="icon"
-              />
-              <div class="text-area-card-section3">
-                <div class="title-card1-section3 padding-super">
-                  Add Fund in Wallet
-                </div>
-                <div class="parag-card1-section3 padding-super">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </div>
-                <div class="buttons-section3 padding-super">
-                  <button class="btn-danger-section3">Sign Up Now</button>
-                </div>
-              </div>
-            </div>
-            <div class="card-n1-section3 padding-master">
-              <img
-                src="/landing-images/1 (3).png"
-                height="50px"
-                width="50px"
-                alt="icon"
-              />
-              <div class="text-area-card-section3">
-                <div class="title-card1-section3 padding-super">
-                  Start Trading
-                </div>
-                <div class="parag-card1-section3 padding-super">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
-                </div>
-                <div class="buttons-section3 padding-super">
-                  <button class="btn-danger-section3">Sign Up Now</button>
+                <div class="alink-next-page-section4">
+                  <a href="#">Читать далее -></a>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-          <section class="padding-master">
-            <div class="section4-container padding-booster">
-              <div class="text-area-section5 flexbox-gap padding-master">
-                <div class="title-text-section3">Why Choose Crypto Brains!</div>
-                <div class="parag-card1-section3">
-                  When an unknown printer took a galley of type and scrambled it
-                  to make a type specimen book.
-                </div>
-              </div>
-              <div class="container-numbers-image">
-                <div class="image-block-section4">
-                  <img src="/landing-images/2 (4).png" alt="Computer" />
-                </div>
-                <div class="image-block-desktop-section4">
-                  <img src="/landing-images/1 (5).png" alt="comp" />
-                </div>
-                <div class="numbers-container">
-                  <div class="text-area-section4">
-                    <div class="number-title-section4">01</div>
-                    <div class="text-numbers-section4">
-                      <div class="title-text-section4">Easy Trading</div>
-                      <div class="parag-card1-section3">
-                        It was popularised in the 1960s with the release of
-                        Letraset sheets containing Lorem Ipsum passages.
-                      </div>
-                    </div>
-                    <div class="buttons-section1 padding-master">
-                      <button class="btn-danger-section4">Start Now</button>
-                    </div>
-                  </div>
-                  <div class="text-area-section4">
-                    <div class="number-title-section4">02</div>
-                    <div class="text-numbers-section4">
-                      <div class="title-text-section4">24/7 Help Service</div>
-                      <div class="parag-card1-section3">
-                        It was popularised in the 1960s with the release of
-                        Letraset sheets containing Lorem Ipsum passages.
-                      </div>
-                    </div>
-                    <div class="buttons-section1 padding-master">
-                      <button class="btn-danger-section4">Start Now</button>
-                    </div>
-                  </div>
-                  <div class="text-area-section4">
-                    <div class="number-title-section4">03</div>
-                    <div class="text-numbers-section4">
-                      <div class="title-text-section4">Fast Service</div>
-                      <div class="parag-card1-section3">
-                        It was popularised in the 1960s with the release of
-                        Letraset sheets containing Lorem Ipsum passages.
-                      </div>
-                    </div>
-                    <div class="buttons-section1 padding-master">
-                      <button class="btn-danger-section4">Start Now</button>
-                    </div>
-                  </div>
-                  <div class="text-area-section4">
-                    <div class="number-title-section4">04</div>
-                    <div class="text-numbers-section4">
-                      <div class="title-text-section4">Low Charges</div>
-                      <div class="parag-card1-section3">
-                        It was popularised in the 1960s with the release of
-                        Letraset sheets containing Lorem Ipsum passages.
-                      </div>
-                    </div>
-                    <div class="buttons-section1 padding-master">
-                      <button class="btn-danger-section4">Start Now</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-              <section class="padding-master">
-                <div class="section5-container padding-booster">
-                  <div class="text-area-section5">
-                    <div class="title-text-section3">
-                      What Traders Saying About Us!
-                    </div>
-                    <div class="parag-text-section1">
-                      Lorem Ipsum has been the industry's standard dummy text
-                      since the 1500s.
-                    </div>
-                  </div>
-                  <div class="card-comment-container">
-                    <div class="card-comment-section5 padding-master">
-                      <div class="person-info-comment">
-                        <img src="/landing-images/Western Man.png" alt="Man" />
-                        <div class="text-person-info-comment">
-                          <div class="title-text-section4">John Doe</div>
-                          <div class="parag-card1-section3">USA, America</div>
-                        </div>
-                      </div>
-                      <div class="parag-person-info-comment padding-super">
-                        “ Lorem Ipsum has been the industry's standard dummy
-                        text ever since the 1500s, when an unknown printer took
-                        a galley of type and scrambled it to make a type
-                        specimen book. ”
-                      </div>
-                    </div>
-                    <div class="card-comment-section5 padding-master">
-                      <div class="person-info-comment">
-                        <img src="/landing-images/Western Man.png" alt="Man" />
-                        <div class="text-person-info-comment">
-                          <div class="title-text-section4">John Doe</div>
-                          <div class="parag-card1-section3">USA, America</div>
-                        </div>
-                      </div>
-                      <div class="parag-person-info-comment padding-super">
-                        “ Lorem Ipsum has been the industry's standard dummy
-                        text ever since the 1500s, when an unknown printer took
-                        a galley of type and scrambled it to make a type
-                        specimen book. ”
-                      </div>
-                    </div>
-                    <div class="card-comment-section5 padding-master">
-                      <div class="person-info-comment">
-                        <img src="/landing-images/Western Man.png" alt="Man" />
-                        <div class="text-person-info-comment">
-                          <div class="title-text-section4">John Doe</div>
-                          <div class="parag-card1-section3">USA, America</div>
-                        </div>
-                      </div>
-                      <div class="parag-person-info-comment padding-super">
-                        “ Lorem Ipsum has been the industry's standard dummy
-                        text ever since the 1500s, when an unknown printer took
-                        a galley of type and scrambled it to make a type
-                        specimen book. ”
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                  <section>
-                    <div class="section6-container padding-booster">
-                      <div class="text-area-section6 flexbox-gap-master padding-master">
-                        <div class="title-text-section3">
-                          Never Miss Trading, Download Our Application
-                        </div>
-                        <div class="parag-text-section1">
-                          Lorem Ipsum has been the industry's standard dummy
-                          text ever since the 1500s, when an unknown printer
-                          took a galley of type and scrambled it to make a type
-                          specimen book.
-                        </div>
-                        <div class="buttons-section1">
-                          <button class="btn-base-section6">App Store</button>
-                          <button class="btn-base-section6">Play Market</button>
-                        </div>
-                      </div>
-                      <div class="image-block-desktop-section6">
-                        <img src="/landing-images/Img (1).png" alt="Comp" />
-                      </div>
-                      <div class="image-block-section6 padding-master">
-                        <img src="/landing-images/Img.png" alt="image" />
-                      </div>
-                    </div>
-                  </section>
-                  <section class="padding-master">
-                    <div class="text-area-section7 flexbox-gap padding-booster">
-                      <div class="title-text-section3">
-                        Frequently Asked Questions
-                      </div>
-                      <div class="parag-card1-section3">
-                        When an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book.
-                      </div>
-                    </div>
-                    <div class="text-info-container-section7 padding-master">
-                      <div class="container">
-                        <div class="section">
-                          <div class="toggle">
-                            What is the difference between Defi and Metaverse ?
-                          </div>
-                          <div class="content">
-                            <p>
-                              When an unknown printer took a galley of type and
-                              scrambled it to make a type specimen book. It has
-                              survived not only five centuries, but also the
-                              leap into electronic typesetting.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="toggle">
-                          What should I do if Google verification fails to bind
-                          ?
-                        </div>
-                        <div class="content">
-                          <p>
-                            When an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap
-                            into electronic typesetting.
-                          </p>
-                        </div>
-                        <div class="toggle">
-                          How to complete your KYC Verification ?
-                        </div>
-                        <div class="content">
-                          <p>
-                            When an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap
-                            into electronic typesetting.
-                          </p>
-                        </div>
-                        <div class="toggle">
-                          What should I do if enter the Google code incorrectly
-                          ?
-                        </div>
-                        <div class="content">
-                          <p>
-                            When an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap
-                            into electronic typesetting.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="container-desktop">
-                        <div class="toggle">
-                          What should I do if enter the Google code incorrectly
-                          ?
-                        </div>
-                        <div class="content">
-                          <p>
-                            When an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap
-                            into electronic typesetting.
-                          </p>
-                        </div>
-                        <div class="toggle">
-                          What should I do if enter the Google code incorrectly
-                          ?
-                        </div>
-                        <div class="content">
-                          <p>
-                            When an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap
-                            into electronic typesetting.
-                          </p>
-                        </div>
-                        <div class="toggle">
-                          What should I do if enter the Google code incorrectly
-                          ?
-                        </div>
-                        <div class="content">
-                          <p>
-                            When an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap
-                            into electronic typesetting.
-                          </p>
-                        </div>
-                        <div class="toggle">
-                          What should I do if enter the Google code incorrectly
-                          ?
-                        </div>
-                        <div class="content">
-                          <p>
-                            When an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap
-                            into electronic typesetting.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  <footer>
-                    <div class="footer-container padding-master">
-                      <div class="logo-footer padding-master">
-                        <img
-                          src="/landing-images/logo.png"
-                          width="190px"
-                          height="30px"
-                          alt="logo"
-                        />
-                        <div
-                          class="community-footer-desktop-container padding-master"
-                        >
-                          <div class="text-area-footer">
-                            <div>Community-</div>
-                          </div>
-                          <div class="social-icons">
-                            <a href="https://www.twitch.tv" target="_blank">
-                              <img
-                                class="icon"
-                                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitch.svg"
-                                alt="Twitch"
-                              />
-                            </a>
-                            <a href="https://telegram.org" target="_blank">
-                              <img
-                                class="icon"
-                                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg"
-                                alt="Telegram"
-                              />
-                            </a>
-                            <a href="https://www.youtube.com" target="_blank">
-                              <img
-                                class="icon"
-                                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg"
-                                alt="YouTube"
-                              />
-                            </a>
-                            <a href="https://www.linkedin.com" target="_blank">
-                              <img
-                                class="icon"
-                                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
-                                alt="LinkedIn"
-                              />
-                            </a>
-                            <a href="https://www.instagram.com" target="_blank">
-                              <img
-                                class="icon"
-                                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
-                                alt="Instagram"
-                              />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="nav-footer-container">
-                        <div class="nav-footer-block2">
-                          <div>Crypto Brains</div>
-                          <a href="#">About Us</a>
-                          <a href="#">Our Team</a>
-                          <a href="#">Road Map</a>
-                          <a href="#">Risk Disclosure</a>
-                        </div>
-                        <div class="nav-footer-block2">
-                          <div>Knowledge</div>
-                          <a href="#">F.A.Q</a>
-                          <a href="#">Articals</a>
-                          <a href="#">Video Tutorial</a>
-                          <a href="#">Beginner’s Guide</a>
-                        </div>
-                        <div class="nav-footer-block2">
-                          <div>Services</div>
-                          <a href="#">API Services</a>
-                          <a href="#">Token Listining</a>
-                          <a href="#">API Document</a>
-                          <a href="#">Ticket Services</a>
-                        </div>
-                        <div class="nav-footer-block2">
-                          <div>Exchange</div>
-                          <a href="#">P2P</a>
-                          <a href="#">Referral</a>
-                          <a href="#">Markets</a>
-                          <a href="#">Affiliate Program</a>
-                        </div>
-                        <div class="nav-footer-block2">
-                          <div>Support Sevice</div>
-                          <a href="#">Career</a>
-                          <a href="#">Comunity</a>
-                          <a href="#">Customer Chat</a>
-                          <a href="#">Technical Support</a>
-                        </div>
-                        <div class="nav-footer-block2">
-                          <div>Press</div>
-                          <a href="#">Blog</a>
-                          <a href="#">News</a>
-                          <a href="#">Events</a>
-                          <a href="#">Technical Support</a>
-                        </div>
-                      </div>
-                      <div class="community-footer-container padding-gap-20px">
-                        <div class="text-area-footer">
-                          <div>Community-</div>
-                        </div>
-                        <div class="social-icons padding-master">
-                          <a href="https://www.twitch.tv" target="_blank">
-                            <img
-                              class="icon"
-                              src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitch.svg"
-                              alt="Twitch"
-                            />
-                          </a>
-                          <a href="https://telegram.org" target="_blank">
-                            <img
-                              class="icon"
-                              src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg"
-                              alt="Telegram"
-                            />
-                          </a>
-                          <a href="https://www.youtube.com" target="_blank">
-                            <img
-                              class="icon"
-                              src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg"
-                              alt="YouTube"
-                            />
-                          </a>
-                          <a href="https://www.linkedin.com" target="_blank">
-                            <img
-                              class="icon"
-                              src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
-                              alt="LinkedIn"
-                            />
-                          </a>
-                          <a href="https://www.instagram.com" target="_blank">
-                            <img
-                              class="icon"
-                              src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
-                              alt="Instagram"
-                            />
-                          </a>
-                        </div>
-                      </div>
-                      <div class="container-footer-copyright-policy">
-                        <div class="container-copyright">
-                          <div class="policy-footer">
-                            <a href="#">Privacy Policy</a>
-                            <a href="#">Terms of Use</a>
-                          </div>
-                          <div class="copyright-footer">
-                            ©Copyright 2022 All Rights Are Reserved.
-                          </div>
-                          <select class="language-selector">
-                            <option value="en">English</option>
-                            <option value="ru">Russian</option>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
-                  </footer>
-                </div>
-            
-            </div>
         </div>
+      </section>
+      <section>
+        <div class="section4-container padding-global">
+          <div class="left-side-section4">
+            <div class="title-text-section4">Помочь проекту</div>
+            <div class="parag-text-section4">
+              Равным образом, экономическая повестка сегодняшнего дня не даёт
+              нам иного выбора, кроме определения прогресса профессионального
+              сообщества. Как принято считать, элементы политического процесса
+              рассмотрены исключительно в разрезе маркетинговых и финансовых
+              предпосылок.
+            </div>
+            <div class="inputs-container-section4">
+              <div class="input-section4">
+                <input type="text" placeholder="Имя" />
+                <input type="email" placeholder="Email" />
+              </div>
+              <div class="button-area-section4">
+                <button class="btn-danger-section4">Отправить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="section5-container">
+          <div class="icons-container-section5">
+            <a href="#"
+              ><img
+                src="/images/Frame.png"
+                height="35px"
+                height="35px"
+                alt="frame"
+            /></a>
+            <a href="#"
+              ><img
+                src="/images/Frame (1).png"
+                height="35px"
+                height="35px"
+                alt="frame"
+            /></a>
+            <a href="#"
+              ><img
+                src="/images/Frame (2).png"
+                height="35px"
+                height="35px"
+                alt="frame"
+            /></a>
+            <a href="#"
+              ><img
+                src="/images/Frame (3).png"
+                height="35px"
+                height="35px"
+                alt="frame"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <div class="text-area-footer">f&b ® 2020</div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
