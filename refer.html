@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/refer.css" />
+    <link rel="stylesheet" href="/normalize.css" />
+    <link rel="stylesheet" href="/baseglobal.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Refer</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const toggles = document.querySelectorAll(".toggle");
+
+        toggles.forEach((toggle) => {
+          toggle.addEventListener("click", function () {
+            this.classList.toggle("active");
+            const content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header-container padding-master">
+          <div class="logo-header">
+            <img
+              src="landing-images/logo.png"
+              width="100px"
+              height="20px"
+              alt="Logo"
+            />
+          </div>
+          <div class="nav-center-header">
+            <a href="index.html">Market</a>
+            <a href="trade.html">Trade</a>
+            <a href="blog.html">Blog</a>
+            <a href="/referal.html">Refferal</a>
+            <a href="/career.html">Career</a>
+          </div>
+          <div class="right-side-header">
+            <div>
+              <a class="sign-mobile-version" href="sign.html">Sign Up</a>
+            </div>
+            <div class="sign-for-desktop">
+              <button class="button-login">
+                <a href="login.html">Log In</a>
+              </button>
+              <button class="sign-desktop">
+                <a href="sign.html">Sign Up</a>
+              </button>
+            </div>
+            <img
+              class="menu-header"
+              src="/landing-images/menu.png"
+              alt="Menu"
+            />
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="container-section1 padding-master padding-refferal">
+          <div class="text-area-section1 flexbox-gap-master">
+            <div class="title-name-section1">- Crypto Brains</div>
+            <div class="title-area-section1">
+              Join Our Affiliate Program And Earn Commissions
+            </div>
+            <div class="title-parag-section1">
+              It is a long established fact that a reader will be distracted by
+              the readable content.
+            </div>
+            <div class="buttons-section1 padding-gap-20px">
+              <button class="btn-log-danger">
+                <a href="affiliate.html">Become Affiliate</a>
+              </button>
+              <button class="btn-base-refer-section1">Already Affiliate</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 2 -->
+      <section>
+        <div class="container-section2 padding-refferal padding-master">
+          <div class="text-area-section2">
+            <div class="text-part-section2">
+              <div class="title-section1">
+                Easy And Secure Trading With CryptoBrains.
+              </div>
+              <div class="title-parag-section1 padding-super">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                doloremque laudantium.
+              </div>
+            </div>
+            <div class="button-for-desktop-section2">
+              <button class="btn-log-danger">
+                <a href="affiliate.html">Become Affiliate</a>
+              </button>
+            </div>
+          </div>
+          <div class="cards-container padding-refferal">
+            <div class="card1-section2">
+              <div class="number-area-card1 padding-super">01</div>
+              <div class="title-area-card1">Create Affiliate Id</div>
+              <div class="parag-area-card1 padding-super">
+                Lorem ipsum dolor sit consectetur adipiscing sed eiusmod tempor
+                ut labore dolore magnaaliqua.
+              </div>
+            </div>
+            <div class="card1-section2">
+              <div class="number-area-card1 padding-super">02</div>
+              <div class="title-area-card1">Create Affiliate Id</div>
+              <div class="parag-area-card1 padding-super">
+                Lorem ipsum dolor sit consectetur adipiscing sed eiusmod tempor
+                ut labore dolore magnaaliqua.
+              </div>
+            </div>
+            <div class="card1-section2">
+              <div class="number-area-card1 padding-super">03</div>
+              <div class="title-area-card1">Create Affiliate Id</div>
+              <div class="parag-area-card1 padding-super">
+                Lorem ipsum dolor sit consectetur adipiscing sed eiusmod tempor
+                ut labore dolore magnaaliqua.
+              </div>
+            </div>
+            <div class="card1-section2">
+              <div class="number-area-card1 padding-super">04</div>
+              <div class="title-area-card1">Create Affiliate Id</div>
+              <div class="parag-area-card1 padding-super">
+                Lorem ipsum dolor sit consectetur adipiscing sed eiusmod tempor
+                ut labore dolore magnaaliqua.
+              </div>
+            </div>
+          </div>
+          <div class="button-section2-card">
+            <button class="btn-log-danger">
+              <a href="affiliate.html">Become Affiliate</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- section 3 -->
+      <section>
+        <div class="container-section3 padding-master padding-refferal">
+          <div class="text-area-section3 padding-gap-20px">
+            <div class="title-area-section3">Earn Up To 50% Commission!</div>
+          </div>
+          <div class="container-blocks-section3">
+            <div class="block1-section3 padding-master">
+              <div class="title-block1 padding-super">
+                Senior Level Commission
+              </div>
+              <div class="parag-block1 padding-super">Earn Up To 55%</div>
+              <div class="button-block1">
+                <button class="btn-base-refer-section1">Start Now</button>
+              </div>
+            </div>
+            <div class="block1-section3 padding-master">
+              <div class="title-block1 padding-super">
+                Middle Level Commission
+              </div>
+              <div class="parag-block1 padding-super">Earn Up To 40%</div>
+              <div class="button-block1">
+                <button class="btn-base-refer-section1">Start Now</button>
+              </div>
+            </div>
+            <div class="block1-section3 padding-master">
+              <div class="title-block1 padding-super">
+                Junior Level Commission
+              </div>
+              <div class="parag-block1 padding-super">Earn Up To 25%</div>
+              <div class="button-block1">
+                <button class="btn-base-refer-section1">Start Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="button-block-title1 padding-master">
+            <button class="btn-log-danger">
+              <a href="affiliate.html">Start Earning</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- section 4 -->
+      <section>
+        <div class="container-secrtion3 padding-master">
+          <div class="title-text-section3 flexbox-gap-master padding-refferal">
+            <div class="title-section3">Hurry Up! Start Earning Now</div>
+            <div class="parag-area-section2">
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s.
+            </div>
+            <div class="button-section3">
+              <button class="btn-log-danger">
+                <a href="affiliate.html">Start Affiliate Now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 5 -->
+      <section>
+        <div class="container-section4 padding-master">
+          <div class="text-area-section4">
+            <div class="title-section3 padding-gap-20px">
+              Frequently Asked Questions
+            </div>
+            <div class="parag-area-section2">
+              When an unknown printer took a galley of type and scrambled it to
+              make a type specimen book.
+            </div>
+          </div>
+          <div class="text-info-container-section7 padding-gap-20px">
+            <div class="container">
+              <div class="section">
+                <div class="toggle">
+                  What is the difference between Defi and Metaverse ?
+                </div>
+                <div class="content">
+                  <p>
+                    When an unknown printer took a galley of type and scrambled
+                    it to make a type specimen book. It has survived not only
+                    five centuries, but also the leap into electronic
+                    typesetting.
+                  </p>
+                </div>
+              </div>
+              <div class="toggle">
+                What should I do if Google verification fails to bind ?
+              </div>
+              <div class="content">
+                <p>
+                  When an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five
+                  centuries, but also the leap into electronic typesetting.
+                </p>
+              </div>
+              <div class="toggle">How to complete your KYC Verification ?</div>
+              <div class="content">
+                <p>
+                  When an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five
+                  centuries, but also the leap into electronic typesetting.
+                </p>
+              </div>
+              <div class="toggle">
+                What should I do if enter the Google code incorrectly ?
+              </div>
+              <div class="content">
+                <p>
+                  When an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five
+                  centuries, but also the leap into electronic typesetting.
+                </p>
+              </div>
+            </div>
+            <div class="column-second">
+              <div class="toggle">
+                What should I do if enter the Google code incorrectly ?
+              </div>
+              <div class="content">
+                <p>
+                  When an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five
+                  centuries, but also the leap into electronic typesetting.
+                </p>
+              </div>
+              <div class="toggle">
+                What should I do if enter the Google code incorrectly ?
+              </div>
+              <div class="content">
+                <p>
+                  When an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five
+                  centuries, but also the leap into electronic typesetting.
+                </p>
+              </div>
+              <div class="toggle">
+                What should I do if enter the Google code incorrectly ?
+              </div>
+              <div class="content">
+                <p>
+                  When an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five
+                  centuries, but also the leap into electronic typesetting.
+                </p>
+              </div>
+              <div class="toggle">
+                What should I do if enter the Google code incorrectly ?
+              </div>
+              <div class="content">
+                <p>
+                  When an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five
+                  centuries, but also the leap into electronic typesetting.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <div class="footer-container padding-master">
+          <div class="logo-footer padding-master">
+            <img
+              src="/landing-images/logo.png"
+              width="190px"
+              height="30px"
+              alt="logo"
+            />
+            <div class="community-footer-desktop-container padding-master">
+              <div class="text-area-footer">
+                <div>Community-</div>
+              </div>
+              <div class="social-icons">
+                <a href="https://www.twitch.tv" target="_blank">
+                  <img
+                    class="icon"
+                    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitch.svg"
+                    alt="Twitch"
+                  />
+                </a>
+                <a href="https://telegram.org" target="_blank">
+                  <img
+                    class="icon"
+                    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg"
+                    alt="Telegram"
+                  />
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                  <img
+                    class="icon"
+                    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg"
+                    alt="YouTube"
+                  />
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <img
+                    class="icon"
+                    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+                    alt="LinkedIn"
+                  />
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img
+                    class="icon"
+                    src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
+                    alt="Instagram"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-footer-container">
+            <div class="nav-footer-block2">
+              <div>Crypto Brains</div>
+              <a href="#">About Us</a>
+              <a href="#">Our Team</a>
+              <a href="#">Road Map</a>
+              <a href="#">Risk Disclosure</a>
+            </div>
+            <div class="nav-footer-block2">
+              <div>Knowledge</div>
+              <a href="#">F.A.Q</a>
+              <a href="#">Articals</a>
+              <a href="#">Video Tutorial</a>
+              <a href="#">Beginner’s Guide</a>
+            </div>
+            <div class="nav-footer-block2">
+              <div>Services</div>
+              <a href="#">API Services</a>
+              <a href="#">Token Listining</a>
+              <a href="#">API Document</a>
+              <a href="#">Ticket Services</a>
+            </div>
+            <div class="nav-footer-block2">
+              <div>Exchange</div>
+              <a href="#">P2P</a>
+              <a href="#">Referral</a>
+              <a href="#">Markets</a>
+              <a href="#">Affiliate Program</a>
+            </div>
+            <div class="nav-footer-block2">
+              <div>Support Sevice</div>
+              <a href="#">Career</a>
+              <a href="#">Comunity</a>
+              <a href="#">Customer Chat</a>
+              <a href="#">Technical Support</a>
+            </div>
+            <div class="nav-footer-block2">
+              <div>Press</div>
+              <a href="#">Blog</a>
+              <a href="#">News</a>
+              <a href="#">Events</a>
+              <a href="#">Technical Support</a>
+            </div>
+          </div>
+          <div class="community-footer-container padding-gap-20px">
+            <div class="text-area-footer">
+              <div>Community-</div>
+            </div>
+            <div class="social-icons padding-master">
+              <a href="https://www.twitch.tv" target="_blank">
+                <img
+                  class="icon"
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitch.svg"
+                  alt="Twitch"
+                />
+              </a>
+              <a href="https://telegram.org" target="_blank">
+                <img
+                  class="icon"
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg"
+                  alt="Telegram"
+                />
+              </a>
+              <a href="https://www.youtube.com" target="_blank">
+                <img
+                  class="icon"
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg"
+                  alt="YouTube"
+                />
+              </a>
+              <a href="https://www.linkedin.com" target="_blank">
+                <img
+                  class="icon"
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+                  alt="LinkedIn"
+                />
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                <img
+                  class="icon"
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
+                  alt="Instagram"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="container-footer-copyright-policy">
+            <div class="container-copyright">
+              <div class="policy-footer">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+              </div>
+              <div class="copyright-footer">
+                ©Copyright 2022 All Rights Are Reserved.
+              </div>
+              <select class="language-selector">
+                <option value="en">English</option>
+                <option value="ru">Russian</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

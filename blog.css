@@ -1,0 +1,79 @@
+section {
+  background-color: #131517;
+}
+.container-cards-section2 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cards-desktop {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image-section1 {
+  display: flex;
+  justify-content: center;
+}
+.title-page-section2 {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+.text-area-section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.small-text-data-section2 {
+  display: flex;
+  color: #adb3bf;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 400;
+}
+.title-text-data-section2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.alink-data-section2 {
+  font-size: 14px;
+  font-weight: 300;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+.line-cards1-section2 {
+  border: 1px solid #1e1f25;
+  background-color: #1e1f25;
+  max-width: 400px;
+}
+.button-danger-section2 {
+  display: flex;
+  justify-content: center;
+}
+.btn-danger-section2 {
+  background-color: #1b70f1;
+  width: 100%;
+  max-width: 180px;
+  height: 40px;
+  border-radius: 6px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+@media (max-width: 1200px) {
+  .section1 {
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  .container-cards-section2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

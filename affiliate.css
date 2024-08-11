@@ -1,0 +1,147 @@
+section {
+  background-color: #131517;
+}
+.container-section1 {
+  border: 1px solid rgba(30, 31, 37, 1);
+  background-color: rgba(30, 31, 37, 1);
+}
+.title-page-section1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.text-area-section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.required-page-section1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.content-required {
+  color: red;
+}
+.name-of-blocks-basic {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+.name-input {
+  font-size: 16px;
+  font-weight: 600;
+  color: #cfd3da;
+}
+input,
+.select-language-input {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background-color: #131517;
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+}
+.select-language-input {
+  color: white;
+  height: 50px;
+}
+.name-of-blocks-basic {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.basic-info-container,
+.block2-container,
+.affiliate-info-container,
+.social-info-container,
+.about-yourself-container {
+  padding-top: 60px;
+}
+.custom-checkbox {
+  font-size: 1px;
+}
+.text-area-affiliate {
+  font-size: 20px;
+  font-size: 400;
+}
+.affiliate-type-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.al-block1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.checkbox-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(173, 179, 191, 1);
+}
+.select-language-input {
+  width: 100%;
+}
+.checkbox-text:checked + span {
+  color: white;
+}
+.about-input {
+  padding: 0px 0px 50px 0px;
+}
+.button-about {
+  padding: 40px 0 40px 0;
+}
+@media (max-width: 900px) {
+  .container-section1 {
+    background-color: #131517;
+    border: none;
+  }
+}
+@media (min-width: 900px) {
+  .section1 {
+    padding: 120px;
+  }
+  .title-page-section1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .required-page-section1 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .name-of-blocks-basic {
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .container-basic-blocks,
+  .container-basic-block2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .bacis-block1 {
+    width: 48%;
+  }
+  .container-affiliate-typer {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  .affiliate-type-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .input-social-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .about-input {
+    padding: 0px 0px 80px 0px;
+  }
+  .button-about {
+    display: flex;
+    justify-content: center;
+  }
+  .btn-log-danger {
+    max-width: 300px;
+  }
+}

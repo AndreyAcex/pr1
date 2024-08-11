@@ -1,0 +1,67 @@
+body {
+  background-color: #131517;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.left-side-area {
+  display: flex;
+  flex-direction: column;
+  padding-left: 160px;
+}
+.title-sign {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+.two-input-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 60px;
+}
+input {
+  background-color: #131517;
+  border: 1px solid grey;
+  height: 40px;
+  border-radius: 5px;
+  width: 100%;
+}
+.other-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.image-area-destop {
+  padding-right: 160px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.create-account-sign {
+  text-align: center;
+}
+.container-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .image-area-destop {
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+  .two-input-container {
+    gap: 20px;
+  }
+  input {
+    width: 300px;
+  }
+}
